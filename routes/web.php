@@ -14,7 +14,7 @@ Route::get('/', function () {
 
 // 2. Rutas con parámetros
 // Ejemplo: Ver el perfil de un jugador específico por su ID
-Route::get('/jugador/{id}', function ($id) {
+Route::get('/jugadores/{id}', function ($id) {
     return 'Mostrando el perfil del jugador con ID: '.$id;
 });
 
@@ -64,7 +64,7 @@ Route::prefix('demo')->group(function () {
     Route::get('/logout', function () {
         Auth::logout();
 
-        return 'Sesión cerrada. Ahora si intentas entrar a /admin/usuarios verás el error 403 o redirect.';
+        return 'Sesión cerrada. Ahora si se intenta entrar a /admin/usuarios se verá el error 403 o redirect.';
     });
 });
 
