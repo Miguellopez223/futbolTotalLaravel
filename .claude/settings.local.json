@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd C:\\\\\\\\laragon\\\\\\\\www\\\\\\\\futboltotal)",
+      "Read(//c/Users/Dell/Downloads/**)",
+      "Bash(pandoc \"Uso de Middleware.docx\" -o uso_middleware.md --track-changes=all)",
+      "Bash(pandoc \"Middleware Inicial.docx\" -o middleware_inicial.md --track-changes=all)",
+      "Read(//c/Users/Dell/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/cdcf0309-2ac2-4168-992a-a5fc1fbe8258/01da8d60-96fe-47e5-9ef6-f7c13e026192/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\Dell\\\\Downloads\\\\Uso de Middleware.docx\" \"C:\\\\Users\\\\Dell\\\\Downloads\\\\unpacked_uso\")",
+      "Bash(pip install *)",
+      "Bash(python 'C:\\\\Users\\\\Dell\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\cdcf0309-2ac2-4168-992a-a5fc1fbe8258\\\\01da8d60-96fe-47e5-9ef6-f7c13e026192\\\\skills\\\\docx/scripts/office/unpack.py' 'C:\\\\Users\\\\Dell\\\\Downloads\\\\Uso de Middleware.docx' 'C:\\\\Users\\\\Dell\\\\Downloads\\\\unpacked_uso')",
+      "Bash(python 'C:\\\\Users\\\\Dell\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\cdcf0309-2ac2-4168-992a-a5fc1fbe8258\\\\01da8d60-96fe-47e5-9ef6-f7c13e026192\\\\skills\\\\docx/scripts/office/unpack.py' 'C:\\\\Users\\\\Dell\\\\Downloads\\\\Middleware Inicial.docx' 'C:\\\\Users\\\\Dell\\\\Downloads\\\\unpacked_inicial')",
+      "Bash(python -c ' *)",
+      "Bash(php artisan *)",
+      "Bash(vendor/bin/pint --dirty --format agent)"
+    ]
+  }
+}
